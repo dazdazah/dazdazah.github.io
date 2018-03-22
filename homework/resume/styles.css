@@ -1,0 +1,27 @@
+body {
+    background: url("http://dash.ga.co/assets/anna-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+}
+
+h1{
+	text-align: center;
+}
+li{
+	color: white;
+	list-style-type: none; 
+}
+
+h1{
+	color:white;
+}
+
+p {
+      font-size: 22px;
+    }
+
+ .profile{
+ 	background-position: center;
+ }
