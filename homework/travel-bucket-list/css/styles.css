@@ -1,0 +1,83 @@
+body{
+	font-family: 'Lora', serif;
+}
+header { 
+  /*width: 1150px;*/
+  width: 1090px; 
+  margin: 0 auto 0 auto;
+  /*padding-top: 3px;
+  padding-bottom: 8px;*/
+  padding: 30px;
+	text-align: center;
+	background: #00415d;    
+	color: white;
+}
+
+.navbar { 
+   width: 1150px;
+   border-top: 20px solid white;
+   margin: 0 auto 0 auto;
+   padding: 20px;
+   text-align: center;
+}
+
+strong{
+	padding: 20px 20px 20px 20px;
+}
+
+
+a{
+	padding: 0px 10px 0px 10px;
+}
+
+.maui{
+  width: 1090px;  
+  background:#0275d8;
+  color: white;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  border: 20px solid white;
+
+}
+
+.maui p{
+  text-align: left;
+}
+
+
+.reykjavik {
+  width: 1090px;  
+  background: #0081ba;
+  border: 20px solid white;
+  color: white;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+  
+  
+.reykjavik p{
+  text-align: left;
+} 
+
+.aspen {
+  width: 1090px;  
+  background: #262e45;
+  color: white;
+  border: 20px solid white;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+  
+.aspen p{
+  text-align: left;
+} 
+
+footer{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+}
+
