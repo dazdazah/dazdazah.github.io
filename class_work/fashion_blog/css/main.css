@@ -2,21 +2,48 @@
 main{
 	width: 720px;
 	padding: 54px;
-	font-family: Lato; sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 main h1{
 	color: #aa0000;
+	font-style: light;
+	font-weight: 300;
 }
 
-nav {
-	
+h3{
+	color: black;
+	font-weight: 300;
+}
+
+a:hover {
+	color: black;
+}
+
+nav a {
  padding: 5px;
-	color: #dddddd;
+ color: #dddddd;
+}
+
+img	{
+	width: 720px;
+}
+
+.Brooklyn{
+	margin-top: 50px;
+
 }
  
  .clear {
     clear: both;
+  }
+
+  .border{
+  	border-width: .5px;
+  	border-style: solid;
+  	color: lightgray; 
+  	margin-bottom: 50px;
+  	margin-top: 50px;
   }
 
 nav:hover {
@@ -25,5 +52,26 @@ color: black;
 
 p{
 	float: right;
+	
+}
+
+strong{
+	color:red;
+	float: right;
+}
+
+footer a{
+	padding: 10px 10px 10px 5px;
+ 	color: #aa0000;
+ 	text-decoration: none;
+ 	border-right: .2px solid grey; 
+ 	border-height: 50px;
+
+}
+
+h5{
+	font-weight: 300;
+	color: #bbbbbb;
+
 
 }
