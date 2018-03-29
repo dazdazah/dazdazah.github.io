@@ -1,0 +1,29 @@
+
+main{
+	width: 720px;
+	padding: 54px;
+	font-family: Lato; sans-serif;
+}
+
+main h1{
+	color: #aa0000;
+}
+
+nav {
+	
+ padding: 5px;
+	color: #dddddd;
+}
+ 
+ .clear {
+    clear: both;
+  }
+
+nav:hover {
+color: black;
+}
+
+p{
+	float: right;
+
+}
