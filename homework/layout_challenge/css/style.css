@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  margin: 0px;
+}
+
+main{
+  margin: 50px;
+}
+
+#header{
+	display: flex;
+  justify-content: flex-start;
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+}
+
+#two-column{
+  display: flex;
+  justify-content: flex-start;
+ }
+
+div .container-left{
+  height: 800px;
+  width: 1100px;
+  margin: 20px 20px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+ }
+
+div .container-right{
+  height: 800px;
+  width: 700px;
+  margin: 20px 0px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+.footer{
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+}
+
+
+#three-column .container {
+  height: 200px;
+}
