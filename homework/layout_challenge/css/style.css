@@ -36,6 +36,91 @@ div .container-right{
   border: 1px solid gray;
 }
 
+/*for three-column*/
+
+#three-column{
+  display: flex;
+  justify-content: flex-start;
+ }
+
+div .nav{
+  height: 800px;
+  width: 350px;
+  margin: 20px 20px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+ }
+
+div .main{
+  height: 800px;
+  width: 1100px;
+  margin: 20px 20px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+div .aside{
+  height: 800px;
+  width: 350px;
+  margin: 20px 0px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+/*for marketing-section*/
+
+#marketing-section {
+display: flex;
+justify-content: center;
+}
+
+div .section-left{
+  height: 500px;
+  width: 900px;
+  margin: 20px 20px 0px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+div .section-right{
+  height: 500px;
+  width: 900px;
+  margin: 20px 0px 0px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+#thumbmnails{
+  display: flex;
+  justify-content: center;
+}
+
+div .thumbmnail-one{
+  height: 350px;
+  width: 500px;
+  margin: 20px 20px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+div .thumbmnail-two{
+  height: 350px;
+  width: 500px;
+  margin: 20px 20px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+div .thumbmnail-three{
+  height: 350px;
+  width: 500px;
+  margin: 20px 0px 20px 0;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+
+
 .footer{
   background: lightgray;
   border: 1px solid gray;
@@ -43,6 +128,3 @@ div .container-right{
 }
 
 
-#three-column .container {
-  height: 200px;
-}
