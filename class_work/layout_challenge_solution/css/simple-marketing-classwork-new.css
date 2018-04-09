@@ -1,0 +1,39 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 800px;
+}
+
+.marketing-section, .thumbmnail {
+  display: flex;
+}
+
+/*main{
+  background: lightgray;
+  border: 1px solid gray;
+  height: 150px;
+  margin: 10px;
+	}*/
+
+.container {
+  background: lightgray;
+  border: 1px solid gray;
+  height: 150px;
+  margin: 10px;
+}
+
+.marketing-section .section-left, .marketing-section .section-right {
+  width: 100%;
+  height: 400px;
+}
+
+
+.thumbmnail .thumbmnail-one, 
+.thumbmnail .thumbmnail-two, 
+.thumbmnail .thumbmnail-three {
+  height: 200px;
+  width: 100%;
+}
