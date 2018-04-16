@@ -1,6 +1,9 @@
-function hello () {
+// function hello () {
 
-    alert("hello");
-  }
+//     alert("hello");
+//   }
   
-hello()
+// hello()
+
+var title = document.querySelectorAll("#title");
+console.log(title);
