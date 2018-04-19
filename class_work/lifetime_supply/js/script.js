@@ -27,5 +27,8 @@ function calculateDrinks() {
   document.querySelector('#total-num-of-drinks-output').innerHTML = drinksLeft;
   document.querySelector('#drink-output').innerHTML = favDrink;
 }
+
+
+
 document.querySelector('#click-me').onclick = calculateDrinks;
 

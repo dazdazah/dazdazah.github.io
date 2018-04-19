@@ -14,7 +14,7 @@ function calculatorBox() {
 
 // 2. Calculate row
   // var centerOutput = (a10 + a20 +a30)
-  var centerOutput = "colorOut(" + red + "," + green + ")"
+  var centerOutput = ("red")
   // var centerOutput = (n10 + n20 +n30)
 
 
@@ -23,9 +23,9 @@ function calculatorBox() {
 
 
   // 3. Output result for user to see:
-  document.querySelector('#total-num-of-drinks-output').innerHTML = drinksLeft;
-  document.querySelector('#drink-output').innerHTML = favDrink;
-  
+  // document.querySelector('#total-num-of-drinks-output').innerHTML = drinksLeft;
+  // document.querySelector('#drink-output').innerHTML = favDrink;
+
 }
 
 
