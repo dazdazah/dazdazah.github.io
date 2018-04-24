@@ -22,7 +22,10 @@ $(".row").click(showParagraph1);
 
 
 function showParagraph1() {
-	$(".wrapper").slideToggle(300);
+	// $(event.target).slideToggle(300);
+	// $(".wrapper").slideToggle(300);
+
+	$(event.currentTarget).children(".wrapper").slideToggle(300);
 }
 
 
