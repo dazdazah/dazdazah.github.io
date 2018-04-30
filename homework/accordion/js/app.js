@@ -28,6 +28,3 @@ function showParagraph1() {
 	$(event.currentTarget).children(".wrapper").slideToggle(300);
 }
 
-
-
-
