@@ -64,6 +64,7 @@ h1{
 .container-howitworks{
 	display: flex;
 	justify-content: center;
+	color: white;
 	}
 
 .thumbnail-howitworks{
