@@ -5,34 +5,43 @@ body{
 }
 
 header{
+	/*background: url(../img/logo.png) no-repeat;*/
+	background-color: rgba(241 241 241 1);
+	height: 59px;
+	/*padding: 15px;*/
 	color: black;
-	padding: 15px;
     display: flex;
   	justify-content: space-between;
   	text-decoration: none;
+	}
+nav{
+	padding: 18px;
+}
 
-  }
-
+.logo{
+	width: 179px;
+	height: 60px;
+	background: url(../img/logo.png)  no-repeat;
+}
 a {
   color: black;
   text-decoration: none;
-  font-weight: bold;
   margin-right: 15px;
 }
 
+header a:hover{
+  background-color: #e5e5e5;
+
+}
 .button {
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 15px;
 	background: rgb(254, 195, 33);
 	color: black;
-	text-align: center;
-	padding: 10px;
-	box-shadow: inset 0 -1px 0 rgba(0,0,0,.3);
-	border-radius: 5px;
-	width: 100px;
+	border-radius: 2px;
+	font-size: 15px;
+	margin-top: 13px;
+	padding: 13px 57px 13px 57px
 }
 
 #hero-banner {
@@ -43,8 +52,8 @@ a {
 }
 
 .wrapper-tagline{
-	background-color: rgba(255,255,255,.3);
-	padding: 60px;
+	background-color: rgba(255,255,255,.5);
+	padding: 40px;
 	height: 100px;
 	color: black;
 	text-align: center;
@@ -58,11 +67,19 @@ a {
 	margin-bottom: 40px;
 }
 
-
-h1{
-	font-size: 25px;
-	font-style: bold;
+.button-hero {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
 	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	background: rgb(254, 195, 33);
+	color: black;
+	text-align: center;
+	padding: 10px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.3);
+	border-radius: 5px;
+	width: 100px;
 }
 
 #how-it-works{
@@ -125,17 +142,16 @@ text-align: center;
 /*Lead a Trip*/
 
 .subheader{
-	background: gray;
-	padding: 100px;
 	background: url(../img/snow-adverture.jpg)  no-repeat;
 	background-position:  bottom;
 	background-size: cover;
+	padding: 100px;
 	color: black;
-
 }
+
 .h1container{
-	background-color: rgba(255,255,255,.5);
-	width: 500px;
+	background-color: rgba(255,255,255,.8);
+	width: 450px;
 	padding: 50px;
 }
 
@@ -192,4 +208,16 @@ textarea{
   font-size: 15px;
 
 }
+
+
+/*________________________________*/
+
+.subheader2{
+	background: url(../img/trio-banner1.jpg)  no-repeat;
+	background-position:  center;
+	background-size: cover;
+	padding: 100px;
+	color: black;
+}
+
 
