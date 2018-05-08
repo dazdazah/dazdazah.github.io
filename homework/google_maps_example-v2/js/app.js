@@ -5,13 +5,14 @@ function initMap() {
       	center: {lat: 40.7128, lng:-74.0060},
 	}
 	// New map
-	var map = new google.maps.Map(document.getElementById('map'), options);}
+	var map = new google.maps.Map(document.getElementById('map'), options);
 
     // Adding marker
     var marker = new google.maps.Marker({
     position: {lat: 40.7308, lng: -73.9973},
     map: map,
-    });
+    title: "Wahington Sqaure Park"
+    });}
 
 
 
