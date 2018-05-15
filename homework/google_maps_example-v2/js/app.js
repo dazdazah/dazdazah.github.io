@@ -12,7 +12,7 @@ function initMap() {
     position: {lat: 40.7308, lng: -73.9973},
     map: map,
     title: "Wahington Sqaure Park"
-    });}
+    })}
 
 
 
