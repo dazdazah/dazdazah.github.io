@@ -13,3 +13,41 @@
 // As a User
 // When I click the button again
 // I want the globe to return
+
+// $("h1").click(bounce);
+
+//   function bounce(){
+//     $("h1").animate({
+
+//     }, 2000)
+//   }
+
+
+
+$("#animate-me").click(function() {
+$("h1").addClass('animated bounce infinite');	
+})
+
+
+$("#shrink").click(function() {
+	$("img").animate({
+		width: 10
+	})
+})
+
+
+
+// $("#click-me").click(moveBox);
+
+//   function moveBox(){
+//     $(".box").animate({
+//       top: 400
+//     }, 2000)
+//   }
+
+
+// $("h1").click(bounce);
+// 	function bounce(){
+// 	$('h1').addClass('animated bounce');
+// 	}
+// }	
