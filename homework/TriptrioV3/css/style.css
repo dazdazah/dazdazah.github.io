@@ -26,7 +26,7 @@ body{
   padding: 52px;
   position: relative;
   border-radius: 4px;
-  margin-top: 500px;
+  margin-top: 686px;
 }
 
 .bg-modal input {
@@ -49,7 +49,7 @@ body{
   text-decoration: none;
   padding: 15px 50px 15px 50px;
   color: white;
-  margin-top: 15px;
+  margin-top: 20px;
   &:hover {
     background-color: white;
     color: $blue;
