@@ -39,6 +39,7 @@ p {
 	padding: 13px 36px 3px 30px;
   margin-left: 10px;
   cursor: pointer;
+  margin-right: 25px;
 }
 
 .button-hero{
@@ -56,9 +57,6 @@ p {
   cursor: pointer;
 }
 
-.banner .blurb a{
-	margin: 5px;
-}
 
 header {
   position: fixed;
@@ -66,31 +64,10 @@ header {
   background: #3f51b5;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 74px;
   bottom-border: 1px solid gray;
-}
-
-header a, .mobile-nav a {
-  color: inherit;
-  text-decoration: none;
-}
-
-header h1 {
-  color: white;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.85rem;
-}
-
-header nav {
-  display: none;
-}
-
-
-header nav a,
-header nav strong {
-  padding: 20px 15px;
 }
 
 .banner {
@@ -107,10 +84,36 @@ header nav strong {
   color: white;
   text-align: center;
  
-  
 }
 
-/*how it works*/
+.banner .blurb a{
+  margin: 5px;
+}
+
+header a, .mobile-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.85rem;
+  margin-left:20px;
+}
+
+header nav {
+  display: none;
+}
+
+
+header nav a,
+header nav strong {
+  padding: 20px 15px;
+}
+
+
+/*-----------how it works----------*/
 
 .how-it-works{
   background: rgb(254, 195, 33);
@@ -129,89 +132,86 @@ header nav strong {
 	justify-content: center;
 }
 .thumbnail-howitworks{
-  padding: 28px 43px;
+  padding: 28px 3px;
 }
 
-.thumbnail-howitworks:last-child {
+/*.thumbnail-howitworks:last-child {
   border-bottom: none;
 }
 
 .thumbnail-howitworks .button {
   background: #C6C6C6;
-}
+}*/
+/*---------------------------------*/
+
 
 /*Post Iteninary*/
 
 #posted-trips, #itinenaries{
-    padding: 100px;
+    padding: 6%;
     background: #f0f2f5;
     text-align: center;
 }
 
 #posted-trips ul{
-    padding: 0;
     display: flex;
     margin-top: 30px;
+    justify-content: center;
 }
 
 #posted-trips li{
-    /*float: left;*/
-
     width: 23%;
-    margin: 1%;
+    margin: .5%;
     list-style-type: none;
 }
 
 #posted-trips li img{
     width: 100%;
-    margin-bottom: 10px;
 }
 
 #posted-trips li a{
     color: #333;
     text-decoration: none;
-    float: left;
 }
 
-
+/*---------------------------------*/
 
 /*Suggested itinenaries*/
- #itinenaries {
- 	padding: 100px;
+
+#itinenaries {
+  padding: 6%;
     background: white;
     text-align: center;
 }
 
 #itinenaries ul{
-    padding: 0;
     display: flex;
     margin-top: 30px;
+    justify-content: center;
 }
 
 #itinenaries li{
-    float: left;
     width: 23%;
-    margin: 1%;
+    margin: .5%;
     list-style-type: none;
 }
 
 #itinenaries li img{
     width: 100%;
-    margin-bottom: 10px;
 }
 
 #itinenaries li a{
     color: #333;
     text-decoration: none;
-    float: left;
 }
 
-/*Suggested itinenaries*/
+/*---------------------------------*/
 
 
 .burger {
   line-height: 0.8;
   cursor: pointer;
+  margin-right: 25px;
 }
 
 .mobile-nav {
@@ -224,23 +224,15 @@ header nav strong {
   align-items: center;
   background-color: black;
   color: white;
-  padding: 1rem 0;
+  padding: 5rem 0 3rem;
 }
 
 nav strong {
   font-family: 'Lato', sans-serif;
 }
 
-/*Resposive Starts*/
-@media screen and (min-width: 1024px) {
-  .mobile-nav, .burger {
-    display: none;
-  }
+/*---------------------------------*/
 
-  header nav {
-    display: flex;
-  }
-}
 
 /*Lead a Trip*/
 
@@ -324,6 +316,17 @@ textarea{
   color: black;
 }
 
+/*Resposive Starts*/
+@media screen and (min-width: 1024px) {
+  .mobile-nav, .burger {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+  }
+}
+
 
 /*------------------->Tablet<---------------------*/
 @media screen and (max-width: 768px) {
@@ -333,36 +336,36 @@ textarea{
   }
 
   .button-hero{
-  	flex-direction: column; 
+    flex-direction: column; 
   }
 
-.how-it-works .thumbnail-container p{
-		text-align: center;
-		font-size:17px;
-	}
+  .how-it-works .thumbnail-container p{
+    text-align: center;
+    font-size:17px;
+  }
 .thumbnail-container img{
-		width: 119%;
-		text-align: center;
-	}
+    width: 90%;
+    text-align: center;
+  }
 
 .thumbnail-howitworks {
-	  padding: 2px 3px;
-	  align-items: center; 
-	}
+    padding: 2px 3px;
+    align-items: center; 
+  }
 
 #posted-trips, #itinenaries{
-	padding: 40px 10px 10px 0px;
-	}
+  padding: 40px 10px 10px 0px;
+  }
 
-#posted-trips li img {
-    width: 117%;
+#posted-trips #itinenaries li img {
+    width: 100%;
     margin-bottom: 10px;
 }
 
-#posted-trips li{
+#posted-trips #itinenaries li{
        width: 40%;
-       padding: 10px;  
-   	}
+       padding: 1px;  
+    }
 
 ul li{
         margin: 10px 0;
@@ -370,74 +373,51 @@ ul li{
         padding: 0;
         text-align: center;
         font-size: x-small;
-    }   	
+    }     
+}
 
 /*------------------->mobile<---------------------*/
+
 @media screen and (max-width: 480px){
-	.banner {
-    padding: 100px;
-  	}
+  .banner {
+    padding: 90px;
+    }
 
-	.blurb h2{
-		text-align: center;
-	}
+  .blurb h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 27px;
+  }
 
-	.how-it-works .thumbnail-container p{
-		text-align: center;
-		font-size: 23px; 
-	}
-	.thumbnail-container{
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-	}
-	.thumbnail-howitworks{
-	  padding: 4px 43px;
-	  align-items: center
-
-	}
-
-	.thumbnail-container img{
-		width: 70%;
-		text-align: center;
-	}
-
-	.postedTrips-container li {
-       width: 98%;
-       margin: 20px 2%x 0 2%;
-	}
-
-	#posted-trips li img {
-    width: 120%;
-    padding: 0;
-    margin-bottom: 10px;
-    
-    .mobile-nav nav {
+  .how-it-works .thumbnail-container p{
+    text-align: center;
+    font-size: 23px; 
+  }
+  .thumbnail-container{
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+  }
+  .thumbnail-howitworks{
+    padding: 4px 60px;
+    align-items: center
+  }
+
+  .thumbnail-container img{
+    width: 60%;
+    text-align: center;
   }
 }
 
-}
+/*Fooooooter*/
 
 footer {
-    text-align: initial;
+    background: black;
+    color: white;
+    padding: 28px 5%;
+    text-align: center;
   }
 
-  /*.mobile-nav nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }*/
-}  
-
-footer {
-  background: black;
-  color: white;
-  padding: 28px 5%;
-  text-align: center;
-}
 
 
 

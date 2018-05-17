@@ -1,0 +1,514 @@
+body{
+	font-family: 'Lato', sans-serif;
+  width: 100%;
+	height: 100%; 
+	margin: 0;
+	font-size: 20px;
+  line-height: 1.5;
+  cursor: default;
+}
+
+
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contents {
+  background-color: white;
+  text-align: center;
+  padding: 52px;
+  position: relative;
+  border-radius: 4px;
+  margin-top: 500px;
+}
+
+.bg-modal input {
+  margin: 15px auto;
+  display: block;
+  padding: 14px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+
+.bg-modal form{
+ 
+}
+
+.bg-modal .modal-contents #button{
+  background-color: #3f51b5;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 15px 50px 15px 50px;
+  color: white;
+  margin-top: 15px;
+  &:hover {
+    background-color: white;
+    color: $blue;
+    border: 2px solid $blue;  
+    }
+}
+
+.bg-modal .modal-contents #button{
+  background-color: #3f51b5;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 15px 50px 15px 50px;
+  color: white;
+  margin-top: 15px;
+  &:hover {
+    background-color: white;
+    color: $blue;
+    border: 2px solid $blue;  
+    }
+}
+
+.bg-modal .modal-contents img{
+
+  /*margin-top: 10px; */
+}
+
+
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: #333;
+  transform: rotate(45deg);
+  cursor: pointer;
+  &:hover {
+    color: #666;
+  }
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  margin: 0 0 1.5rem 0;
+}
+
+
+#button {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	background: rgb(254, 195, 33);
+	color: black;
+	border-radius: 2px;
+	font-size: 15px;
+	margin-top: 14px;
+	margin-bottom: 9px;
+	padding: 13px 36px 3px 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.button-hero{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	background: rgb(254, 195, 33);
+	color: black;
+	text-align: center;
+	padding: 10px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.3);
+	border-radius: 5px;
+	width: 100%;
+  cursor: pointer;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #3f51b5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 74px;
+  bottom-border: 1px solid gray;
+}
+
+.banner {
+  background: url(../img/hike-bg.png) center center no-repeat;
+  background-size: cover;
+  padding: 250px;
+  height: 100%;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+  justify-content: center;
+}
+
+
+.blurb {
+  color: white;
+  text-align: center;
+ 
+}
+
+.banner .blurb a{
+  margin: 5px;
+}
+
+header a, .mobile-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.85rem;
+  margin-left:20px;
+}
+
+header nav {
+  display: none;
+}
+
+
+header nav a,
+header nav strong {
+  padding: 20px 15px;
+}
+
+
+/*-----------how it works----------*/
+
+.how-it-works{
+  background: rgb(254, 195, 33);
+  padding: 5% 0;
+}
+
+.how-it-works h1{
+	text-align: center;
+	padding: 10px;
+}
+.how-it-works .thumbnail-container p{
+	text-align: center;
+}
+.thumbnail-container{
+	display: flex;
+	justify-content: center;
+}
+.thumbnail-howitworks{
+  padding: 28px 3px;
+}
+
+/*.thumbnail-howitworks:last-child {
+  border-bottom: none;
+}
+
+.thumbnail-howitworks .button {
+  background: #C6C6C6;
+}*/
+/*---------------------------------*/
+
+
+/*Post Iteninary*/
+
+#posted-trips, #itinenaries{
+    padding: 6%;
+    background: #f0f2f5;
+    text-align: center;
+}
+
+#posted-trips ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#posted-trips li{
+    width: 23%;
+    margin: .5%;
+    list-style-type: none;
+}
+
+#posted-trips li img{
+    width: 100%;
+}
+
+#posted-trips li a{
+    color: #333;
+    text-decoration: none;
+}
+
+/*---------------------------------*/
+
+/*Suggested itinenaries*/
+
+#itinenaries {
+  padding: 6%;
+    background: white;
+    text-align: center;
+}
+
+#itinenaries ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#itinenaries li{
+    width: 23%;
+    margin: .5%;
+    list-style-type: none;
+}
+
+#itinenaries li img{
+    width: 100%;
+}
+
+#itinenaries li a{
+    color: #333;
+    text-decoration: none;
+}
+
+/*---------------------------------*/
+
+
+.burger {
+  line-height: 0.8;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 5rem 0 3rem;
+}
+
+nav strong {
+  font-family: 'Lato', sans-serif;
+}
+
+/*---------------------------------*/
+
+
+/*Lead a Trip*/
+
+.subheader{
+  background: url(../img/snow-adverture.jpg)  no-repeat;
+  background-position:  bottom;
+  background-size: cover;
+  padding: 150px;
+  color: black;
+}
+
+.h1container{
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.formSection{
+  background: rgb(241, 241, 241, 1);
+  padding: 50px;
+}
+
+
+.NameGroup{
+  margin: 20px 0 20px 0;
+}
+
+#description{
+  margin: 20px 0 0 20px;
+}
+
+.description{
+  margin: 20px 0 50px 0px;
+}
+
+.leaderName{
+  margin: 20px 0 50px 0px;
+}
+
+.upload{
+  margin: 20px 0 50px 0;
+
+}
+.submit{
+  margin: 0 auto;
+}
+
+select{
+  width: 400px;
+  font-size: 20px;
+  margin: 20px 0;
+  box-shadow: none;
+  padding: 10px;
+
+}
+
+input {
+  width: 300px;
+  font-size: 20px;
+  margin: 20px 0 0 10px;
+  box-shadow: none;
+  padding: 10px;
+}
+
+
+textarea{
+  width: 500px;
+  height: 200px;
+  font-size: 15px;
+
+}
+
+
+/*________________________________*/
+
+.subheader2{
+  background: url(../img/trio-banner1.jpg)  no-repeat;
+  background-position:  center;
+  background-size: cover;
+  padding: 150px;
+  color: black;
+}
+
+
+/*---------------------------*/
+
+
+/*Resposive Starts*/
+
+@media screen and (min-width: 1024px) {
+  .mobile-nav, .burger {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+
+}
+
+
+/*------------------->Tablet<---------------------*/
+@media screen and (max-width: 768px) {
+  .banner {
+    justify-content: flex-end;
+    padding: 90px;
+  }
+
+  .button-hero{
+    flex-direction: column; 
+  }
+
+  .how-it-works .thumbnail-container p{
+    text-align: center;
+    font-size:17px;
+  }
+.thumbnail-container img{
+    width: 90%;
+    text-align: center;
+  }
+
+.thumbnail-howitworks {
+    padding: 2px 3px;
+    align-items: center; 
+  }
+
+#posted-trips, #itinenaries{
+  padding: 40px 10px 10px 0px;
+  }
+
+#posted-trips #itinenaries li img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#posted-trips #itinenaries li{
+       width: 40%;
+       padding: 1px;  
+    }
+
+ul li{
+        margin: 10px 0;
+        width: 20%;
+        padding: 0;
+        text-align: center;
+        font-size: x-small;
+    }     
+}
+
+/*------------------->mobile<---------------------*/
+
+@media screen and (max-width: 480px){
+  .banner {
+    padding: 90px;
+    }
+
+  .blurb h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 27px;
+  }
+
+  .how-it-works .thumbnail-container p{
+    text-align: center;
+    font-size: 23px; 
+  }
+  .thumbnail-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .thumbnail-howitworks{
+    padding: 4px 60px;
+    align-items: center
+  }
+
+  .thumbnail-container img{
+    width: 60%;
+    text-align: center;
+  }
+}
+
+/*Fooooooter*/
+
+footer {
+    background: black;
+    color: white;
+    padding: 28px 5%;
+    text-align: center;
+  }
+
+
